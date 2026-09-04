@@ -1,0 +1,79 @@
+Knights Contract PS3 Save Editor v1.0 — Rank Fix
+
+WHY v0.9 DID NOT APPEAR TO WORK
+===============================
+
+1. The editor used internal difficulty names:
+   EASY / NORMAL / HARD / VERYHARD / HELL
+
+   The game uses:
+   PAGE        = Easy
+   SQUIRE      = Normal
+   KNIGHT      = Hard
+   HEXEN KNIGHT= Very Hard
+   WITCHSLAYER = Hell
+
+   The supplied screenshot is Episode 3 on HEXEN KNIGHT, which is result slot 3
+   (the old editor called that VERYHARD). The old rank selector defaulted to
+   HARD / slot 2, which is KNIGHT.
+
+2. v0.9 changed only grade/rank fields. Episode Select also stores five displayed
+   result-point fields, and leaving those at low values could leave the visible
+   result inconsistent.
+
+VERIFIED EPISODE 3 / HEXEN KNIGHT RECORD
+========================================
+
+Before:
+  Time points      0
+  Combos points    38,850
+  Finishers points 49,000
+  Kills points     4,100
+  Retries points   50,000
+  Component grades 0,0,0,0,0 = C-,C-,C-,C-,C-
+  Total points     141,950
+  Overall grade    0 = D
+
+The screenshot matches those values exactly.
+
+v1.0 FORCE S+ WRITES
+====================
+
+  Time points      500,000
+  Combos points    500,000
+  Finishers points 500,000
+  Kills points     500,000
+  Retries points    50,000
+  Component grades 4,4,4,4,4 = S,S,S,S,S
+  Total points     2,050,000
+  Overall grade    5 = S+
+
+The total remains internally consistent because it equals the sum of the five
+component result-point fields.
+
+RANK ENUMERATION
+================
+
+Component grades:
+  0 = C-
+  1 = C
+  2 = B
+  3 = A
+  4 = S
+
+Overall:
+  0 = D
+  1 = C
+  2 = B
+  3 = A
+  4 = S
+  5 = S+
+
+BUILD
+=====
+
+- Small Windows GUI EXE
+- No CMD/console window
+- Existing Knights Contract icon/resources preserved
+- Embedded script size: 98,690 bytes
+- EXE SHA-256: 422ae0f25b271f3627ee8982fd099b305a715c0b48e68ea5f4ec7bb6f60cf395
