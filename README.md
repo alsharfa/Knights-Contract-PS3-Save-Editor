@@ -69,6 +69,13 @@ This repository provides a **Knights Contract save editor for PS3 / PlayStation 
 
 Knights Contract is a PlayStation 3 game. This project is not affiliated with or endorsed by the game's publisher, developer, Sony, or PlayStation.
 
+## Related PlayStation Tools
+
+- [Driveclub PS4 Save Editor](https://github.com/alsharfa/Driveclub-PS4-Save-Editor-)
+- [Dynasty Warriors: Strikeforce PS3 Save Editor](https://github.com/alsharfa/Dynasty-Warriors-Strikeforce-ps3-save-editor)
+- [Final Fantasy XIII-2 PS3 Save Editor](https://github.com/alsharfa/Final-Fantasy-XIII-2-PS3-Save-Editor)
+- [PSN Account ID Tool](https://github.com/alsharfa/PSN-Account-ID-Tool)
+
 ## Search Terms
 
 Knights Contract PS3 Save Editor · Knights Contract Save Editor · Knights Contract PS3 save game editor · PlayStation 3 save editor · PS3 save editor
