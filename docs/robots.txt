@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alsharfa.github.io/Knights-Contract-PS3-Save-Editor/sitemap.xml
